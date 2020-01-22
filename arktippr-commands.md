@@ -1,7 +1,7 @@
 # ArkTippr Usage Guide
 
 ## Before You Start
-**FYI: Many bots ignore text and commands that are stylized.  So you don't want to be executing commands that are bold, italic, etc.** 
+{% hint style="info" %}FYI: Many bots ignore text and commands that are stylized.  So you don't want to be executing commands that are bold, italic, etc.{% endhint %}
 
 ## Getting Started
 **How to start using ArkTippr** 
@@ -28,11 +28,11 @@
 
 To tip a user as a reward for good content, simply reply to the specific comment or post with:
 
-    ```<amount> [currency] u/arktippr [~]```
+    <amount> [currency] u/arktippr [~]
 
  or you can reverse the variables:
 
-    ```[currency] <amount> u/arktippr [~]```
+    [currency] <amount> u/arktippr [~]
 
 This will transfer the `<amount> [currency]` converted to Ark from your ArkTippr Ark wallet to theirs - on-chain!
 
@@ -46,15 +46,15 @@ If the other user did not set up an ArkTippr Ark wallet yet, it still works. The
 
 Commenting on that cool post - or replying to his remarkable comment - by u\/bobby with:
    
-    ```2.5 USD u/arktippr```
+    2.5 USD u/arktippr
 
 will let Bobby know how cool he is and transfer (*from your ArkTippr Ark Wallet*) the amount of Ark with the current value of $2.50 USD to u\/bobby. Or, you can use Ark natively:
 
-    ```1.1 u/arktippr```
+    1.1 u/arktippr
 
 That will send Bobby a tip of Ѧ1.1 Ark. Keep in mind, when we say "currency" and "conversions" we are simply estimating how much Ark to tip according to the current exchange rate. "10 USD" does not send actual USD, it sends 10 USD worth of Ark at the current exchange rate. ArkTippr calculates exchange rates in the background for you, in near real-time. See the bottom of this page, as ArkTippr supports many currencies other than USD!
 
-**Did You Know?** You can tip any Reddit user on any Subreddit- you are not confined to Ark's Subreddit!
+{% hint style="info" %}**Did You Know?** You can tip any Reddit user on any Subreddit- you are not confined to Ark's Subreddit!{% endhint %}
 
 ---
  
@@ -64,17 +64,17 @@ That will send Bobby a tip of Ѧ1.1 Ark. Keep in mind, when we say "currency" an
 
 To tip multiple users as a reward for good content, simply reply to the specific comment or post with:
 
-    ```REWARD u/arktippr
+    REWARD u/arktippr
     <amount> ARK username1
     <amount> ARK username2
-    <amount> ARK username3```
+    <amount> ARK username3
 
 This also works with STICKERS:
 
-    ```REWARD u/arktippr
+    REWARD u/arktippr
     STICKERS username1
     STICKERS username2
-    STICKERS username3```
+    STICKERS username3
 
 This allows you to reward multiple people publicly with ARK. Keep in mind to specify all usernames WITHOUT the "u/" callsign. 
 
@@ -84,7 +84,7 @@ Also keep in mind, to create a new line, you need to hit enter twice when compos
 
 If you are using the REWARD command responding to a post, you will need to specify the original poster's username in the reward list if you want to tip them as well.
 
-**Did You Know?** You can tip any Reddit user on any Subreddit- you are not confined to Ark's Subreddit!
+{% hint style="info" %}**Did You Know?** You can tip any Reddit user on any Subreddit- you are not confined to Ark's Subreddit!{% endhint %}
 
 ---
 
@@ -113,23 +113,23 @@ or you can reverse the variables:
 
 Sending ArkTippr a private message with:
 
-    ```SEND bobby 5 USD```
+    SEND bobby 5 USD
 
 will transfer (*from your ArkTippr Ark wallet*) the amount of Ark with the current value of $5.00 USD to u\/bobby.
 
-    ```SEND bobby 7.865```
+    SEND bobby 7.865
 
 will transfer Ѧ7.865 ARK to u\/bobby
 
 The SEND command will result in another Reddit user receiving funds from you without you needing to post a public comment.
 
-**Points to consider regarding SEND:**
+{% hint style="info" %}**Points to consider regarding SEND:**
 
 1. **Do not send 'commands' directly to the other user.** You will be sending commands to ArkTippr, who will take care of the rest.
 2. SEND will bypass the need for a public comment on Reddit, but it will still create a publicly viewable transaction on the Ark blockchain itself.
-3. If for some reason the other user no longer has access to their Reddit credentials, they will not be able to retrieve the funds you sent. 
+3. If for some reason the other user no longer has access to their Reddit credentials, they will not be able to retrieve the funds you sent. {% endhint %}
 
-**Did You Know?** You can use SEND for any Reddit user- you are not confined to Ark Subreddit users!
+{% hint style="info" %}**Did You Know?** You can use SEND for any Reddit user- you are not confined to Ark Subreddit users!{% endhint %}
 
 ---
 
@@ -180,7 +180,7 @@ This method does not use public comments, so no one will see that you gave them 
 
 Sticker codes can only be used one time.
 
-**Did You Know?** You can use STICKERS for any Reddit user on any Subreddit- you are not confined to Ark's Subreddit!
+{% hint style="info" %}**Did You Know?** You can use STICKERS for any Reddit user on any Subreddit- you are not confined to Ark's Subreddit!{% endhint %}
 
 ---
  
@@ -190,15 +190,15 @@ Sticker codes can only be used one time.
 
 Before you can tip a Reddit user, you need to deposit Ark to your ArkTippr wallet. Arktippr creates a personal wallet for each Reddit user on the Ark blockchain, and your balance is kept on your wallet. 
 
-To receive your deposit address, send ArkTippr a private message with either of these commands:
+To receive your deposit address, send ArkTippr a private message with this command:
 
-```DEPOSIT```
+```DEPOSIT ```
  
 You can load up your ArkTippr wallet with any amount of Ark you'd like. Please keep in mind that anybody with access to your Reddit credentials also will have access to this wallet. 
 
 **Do NOT deposit or store large amounts of Ark in this wallet**. Treat it like a small coinpurse.
 
-*Pro Tip: Add your ArkTippr [Ark wallet address](#wiki_deposit_and_address) to any of the official wallets as a Watch-Only address and you can track your ArkTippr balance alongside your other addresses as well.* 
+{% hint style="info" %}Pro Tip: Add your ArkTippr [Ark wallet address](#wiki_deposit_and_address) to any of the official wallets as a Watch-Only address and you can track your ArkTippr balance alongside your other addresses as well.{% endhint %}
 
 ---
 
@@ -210,7 +210,7 @@ To see the balance of your ArkTippr Ark wallet, send ArkTippr a private message 
 ```BALANCE```
 
 
-*Pro Tip: Add your ArkTippr [Ark wallet address](#wiki_deposit_and_address) to any of the official wallets as a Watch-Only address and you can track your ArkTippr balance alongside your other addresses as well.* 
+{% hint style="info" %}Pro Tip: Add your ArkTippr [Ark wallet address](#wiki_deposit_and_address) to any of the official wallets as a Watch-Only address and you can track your ArkTippr balance alongside your other addresses as well.{% endhint %}
 
  
 ---
@@ -222,13 +222,13 @@ You can withdraw all the Ark in your ArkTippr wallet to a different wallet:
 
 **To withdraw the total balance:** 
 
-    ```WITHDRAW <address>```
+    WITHDRAW <address>
 
 You can also withdraw only some of the Ark in your ArkTippr wallet to a different wallet:
 
 **To withdraw a partial balance:** 
 
-    ```WITHDRAW <address> [amount] [currency]```
+    WITHDRAW <address> [amount] [currency]
 
 * `<address>` should be a **valid Ark wallet that you control.** WITHDRAW is irreversible so make sure the address is correct.
 
@@ -240,11 +240,11 @@ You can also withdraw only some of the Ark in your ArkTippr wallet to a differen
 
 Sending ArkTippr a message with:
 
-    ```WITHDRAW AUDud8tvyVZa67p3QY7XPRUTjRGnWQQ9Xv 50.25 EUR```
+    WITHDRAW AUDud8tvyVZa67p3QY7XPRUTjRGnWQQ9Xv 50.25 EUR
 
 will transfer (*from your ArkTippr Ark Wallet*) the amount of Ark with the current value of €50.25 EUR to AUDud8tvyVZa67p3QY7XPRUTjRGnWQQ9Xv 
 
-    ```WITHDRAW AUDud8tvyVZa67p3QY7XPRUTjRGnWQQ9Xv```
+    WITHDRAW AUDud8tvyVZa67p3QY7XPRUTjRGnWQQ9Xv
 
 will transfer the total balance to AUDud8tvyVZa67p3QY7XPRUTjRGnWQQ9Xv
 
@@ -260,32 +260,26 @@ When using private messages to send commands to ArkTippr, you can stack commands
 
 **To send Ark to multiple people at once, send this private message to ArkTippr:**
 
-```SEND bobby 5
-
-SEND sally 3 USD
-
-SEND kenny 6.543```
+    SEND bobby 5
+    SEND sally 3 USD
+    SEND kenny 6.543
  
 This will send 5 Ark to Reddit user bobby, 3 USD worth of Ark to Reddit user sally, and 6.543 Ark to Reddit user kenny.
 Remember that the SEND command does not use public comments, so these actions will not be publicly displayed on Reddit.
 
 **To withdraw to multiple of *your* other wallets at once:**
 
-```WITHDRAW <address1> 12
-
-WITHDRAW <address2> 12
-
-WITHDRAW <address3> 8 USD```
+    WITHDRAW <address1> 12
+    WITHDRAW <address2> 12
+    WITHDRAW <address3> 8 USD
 
 This will withdraw 12 Ark to your address1, 12 Ark to your address2, and 8 USD worth of Ark to your address3.
 
 **To make it rain stickers on a bunch of people:**
 
-```STICKERS bobby
-
-STICKERS sally
-
-STICKERS kenny```
+    STICKERS bobby
+    STICKERS sally
+    STICKERS kenny
  
 This will send unique ArkStickers stickers codes directly to Reddit usernames bobby, sally and kenny.
 
