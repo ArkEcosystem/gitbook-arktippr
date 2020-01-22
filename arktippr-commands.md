@@ -123,11 +123,11 @@ will transfer Ѧ7.865 ARK to u\/bobby
 
 The SEND command will result in another Reddit user receiving funds from you without you needing to post a public comment.
 
-{% hint style="info" %}**Points to consider regarding SEND:**
+**Points to consider regarding SEND:**
 
 1. **Do not send 'commands' directly to the other user.** You will be sending commands to ArkTippr, who will take care of the rest.
 2. SEND will bypass the need for a public comment on Reddit, but it will still create a publicly viewable transaction on the Ark blockchain itself.
-3. If for some reason the other user no longer has access to their Reddit credentials, they will not be able to retrieve the funds you sent. {% endhint %}
+3. If for some reason the other user no longer has access to their Reddit credentials, they will not be able to retrieve the funds you sent.
 
 {% hint style="info" %}**Did You Know?** You can use SEND for any Reddit user- you are not confined to Ark Subreddit users!{% endhint %}
 
